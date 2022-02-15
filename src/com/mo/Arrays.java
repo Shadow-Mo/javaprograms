@@ -21,11 +21,11 @@ public class Arrays {
 //        Multidimensional arrays
         int[][] num={{1,2,3,4},{5,6,7}};
         int x = num[1][2];
-        System.out.println(x);
+        System.out.println(x);                 //outputs 7
 //        for loop inside a for loop
         for (int j=0;j<num.length;j++){
             for (int k=0;k<num[j].length;k++){
-                System.out.println(num[j][k]);
+                System.out.println(num[j][k]);  //outputs 1234567
             }
         }
     }
