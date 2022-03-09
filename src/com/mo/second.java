@@ -1,8 +1,9 @@
-package com.mo;
+package com.shadow;
 
 public class second {
-    public static void main(String[] args){
-        first myobj = new first();
-        System.out.println(myobj.x);
+    public static void main(String[] args) {
+        main mycar = new main();
+        mycar.fullthrottle();
+        mycar.speed(200);
     }
 }
