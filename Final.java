@@ -1,6 +1,6 @@
 package com.mo;
 //If you don't want the ability to override existing attribute values, declare attributes as final:
-/*
+
 public class Final {
     final int x=10;
     final double pi = 3.14;
@@ -12,4 +12,4 @@ public class Final {
         System.out.println(obj.x,obj.pi);
     }
 }
- */
+ 
